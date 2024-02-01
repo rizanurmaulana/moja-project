@@ -1,0 +1,38 @@
+.navbar-toggler {
+  border: none;
+  margin-left: 10px;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link:hover {
+  color: black;
+  font-weight: 500;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: #7e47e1;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover::before {
+  width: 100%;
+  visibility: visible;
+}
+
+@media (max-width: 991px) {
+  .nav-link::before {
+    left: 0;
+    transform: translateX(0);
+  }
+}

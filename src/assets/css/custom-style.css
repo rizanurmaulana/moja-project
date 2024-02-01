@@ -1,0 +1,90 @@
+::selection {
+  background: #7e47e1;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #7e47e1;
+  border: none;
+}
+
+.btn-outline-primary {
+  border-color: #7e47e1;
+  color: #7e47e1;
+}
+
+.bg-primary {
+  background-color: #7e47e1;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #5f29bf;
+}
+
+.btn-outline-primary:hover {
+  background-color: #7e47e1;
+}
+
+.card-title {
+  color: #2a3547;
+}
+
+section {
+  min-height: 100vh;
+}
+
+.card-job:hover {
+  background-color: #ececec;
+}
+
+ul.list-circle {
+  padding-left: 1rem;
+}
+
+ul.list-circle li {
+  list-style: disc;
+}
+
+.img-logo {
+  height: 125px;
+  width: 125px;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.partnership {
+  background-color: #f6f5f9;
+  min-height: 100%;
+  padding: 50px 100px;
+}
+
+.company_logo {
+  width: 100px;
+}
+
+.testimonial-card .card-up {
+  height: 120px;
+  overflow: hidden;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.testimonial-card .avatar {
+  width: 110px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.team-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
